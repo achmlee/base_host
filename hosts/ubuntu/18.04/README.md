@@ -15,3 +15,12 @@ Mostly cosmetic customizations.
 * .bash_profile (startup config file)
 * README.md (this file)
 * .vimrc (VIM specific customization)
+
+## Install MySQL Client (For Data Backup Operations)
+* `$ apt-get install mariadb-client`
+
+## Set Up s4cmd for S3 Backups
+* `$ apt-get install s4cmd` - Current v2.0.1
+* Add credentials to .bashrc
+  * export S3_ACCESS_KEY="<S3_ACCESS_KEY>"
+  * export S3_SECRET_KEY="<S3_SECRET_KEY>"
