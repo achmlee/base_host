@@ -1,5 +1,4 @@
-# ~/.bash_profile
-source ~/.bashrc
+# ~/.zprofile
 
 PATH=$PATH:$HOME/bin
 export PATH

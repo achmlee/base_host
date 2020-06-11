@@ -24,3 +24,19 @@ Mostly cosmetic customizations.
 * Add credentials to .bashrc
   * export S3_ACCESS_KEY="<S3_ACCESS_KEY>"
   * export S3_SECRET_KEY="<S3_SECRET_KEY>"
+
+# Niceties
+* Install zsh:
+  * `$ sudo apt-get install zsh`
+  * `$ sudo usermod -s /usr/bin/zsh $(whoami)`
+  * `$ sudo apt-get install powerline fonts-powerline`
+* Install oh-my-zsh
+  * `$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+* Install powerlevel10k theme
+  * `$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
+  * In .zshrc, update ZSH_THEME to: powerlevel10k/powerlevel10k
+  * To reconfigure: `$ p10k configure`
+    * Config file: `~/.p10k.zsh`
+* Install Fonts (https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k):
+  * Catalina: Open Font Book → Validate and Install
+  * iTerm2: iTerm2 → Preferences → Profiles → Text → Choose MesloLGS NF
