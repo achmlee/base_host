@@ -8,11 +8,11 @@
 2. Copy customization files into place. Optional but helpful.
 3. Set up Logz.io integration
 
-## Customization Files
+## Customization Files (If not changing, can directly be symlinked)
 Mostly cosmetic customizations.
-* .bash_aliases (global alias file, designed not to be changed)
-* .bash_aliases_local (*Example* user specific alias file)
-* .bash_profile (startup config file)
+* .zsh_aliases (global alias file, designed not to be changed, ff oh-my-zsh is being used, add to ZSH_CUSTOM directory as aliases.zsh)
+* .zsh_aliases_local (*Example* user specific alias file)
+* .pprofile (startup config file)
 * README.md (this file)
 * .vimrc (VIM specific customization)
 
@@ -37,6 +37,8 @@ Mostly cosmetic customizations.
   * In .zshrc, update ZSH_THEME to: powerlevel10k/powerlevel10k
   * To reconfigure: `$ p10k configure`
     * Config file: `~/.p10k.zsh`
-* Install Fonts (https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k):
+  * Preset options: After icon check, use 2-1-3-3-1-1-1-1-2-2-1-y-3-y
+* Install Fonts on Host Terminal (https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k):
+  * Configuration should ask to install - or -
   * Catalina: Open Font Book → Validate and Install
-  * iTerm2: iTerm2 → Preferences → Profiles → Text → Choose MesloLGS NF
+    * iTerm2: iTerm2 → Preferences → Profiles → Text → Choose MesloLGS NF

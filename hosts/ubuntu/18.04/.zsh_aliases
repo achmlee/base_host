@@ -1,4 +1,5 @@
 # ~/.zsh_aliases
+# If using oh-my-zsh, make this $ZSH_CUSTOM/aliases.zsh
 
 # General
 alias cp='cp -iv'
