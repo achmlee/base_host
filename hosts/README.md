@@ -32,5 +32,9 @@ Disable password authentication and root access
 ### Enable firewall
 * Either use ufw or firewall tool provided by host.
 
-### Enable File Integrity Tool
+### Enable File Integrity Tool (optional)
 * @see `https://https://logz.io/'
+
+### Updates/Upgrades
+* `$ sudo apt-get update` - Update package lists
+* `$ sudo apt-get upgrade` - Upgrade packages

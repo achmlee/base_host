@@ -16,6 +16,13 @@ Mostly cosmetic customizations.
 * README.md (this file)
 * .vimrc (VIM specific customization)
 
+## Install PHP 7.3
+* `$ sudo add-apt-repository ppa:ondrej/php`
+* `$ sudo apt-get update`
+* `$ sudo apt-get install php7.3`
+* `$ sudo apt-get install php7.3-xml` - For ext dom
+* `$ sudo apt-get install php7.3-gd` - For ext gd
+
 ## Install MySQL Client (For Data Backup Operations)
 * `$ apt-get install mariadb-client`
 

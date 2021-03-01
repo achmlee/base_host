@@ -1,4 +1,4 @@
-# Docker Install
+# Docker Install (Last Updated: 2020.11.29)
 
 ## Install Docker CE via Repository (@see https://docs.docker.com/engine/install/ubuntu/)
 ### Set Up Repository
@@ -37,7 +37,6 @@
 ### For external access to local projects, Set up ngrok.
 1. Install ngrok: `$ snap install ngrok`
 
-### DDev External Access
-* `~/.ddev/global_config.yaml` - Open up access to whole network and disable tools
-  * router_bind_all_interfaces: true
-  * omit_containers: [dba]
+### Common Commands
+* `docker version` - Get version
+
