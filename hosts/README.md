@@ -42,6 +42,9 @@ Disable password authentication and root access (root access will still be allow
 ### Enable File Integrity Tool (optional)
 * @see `https://https://logz.io/'
 
+### Enable Two Factor Auth
+* Set up Google Authenticator (libpam-google-authenticator)
+
 ### Updates/Upgrades
 * `$ sudo apt-get update` - Update package lists
 * `$ sudo apt-get upgrade` - Upgrade packages
