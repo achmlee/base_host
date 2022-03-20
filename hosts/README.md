@@ -1,4 +1,4 @@
-# Generic Setup for All Hosts (Last Updated: 2021.08.01)
+# Generic Setup for All Hosts (Last Updated: 2022.03.20)
 
 ## Assumptions
 * Git installed and configured properly.
@@ -35,14 +35,14 @@ Disable password authentication and root access (root access will still be allow
     * `$ ssh mike@server -o PubkeyAuthentication=no` - Permission denied (publickey)
 4. Verify SSH Protocol 2 is only one enabled: `ssh -Q protocol-version <server>`
 
-### Enable firewall
+### Enable firewall (optional)
 * Either use ufw or firewall tool provided by host.
 * Check status: `sudo ufw status`
 
 ### Enable File Integrity Tool (optional)
 * @see `https://https://logz.io/'
 
-### Enable Two Factor Auth
+### Enable Two Factor Auth (optional)
 * Set up Google Authenticator (libpam-google-authenticator)
 
 ### Updates/Upgrades
