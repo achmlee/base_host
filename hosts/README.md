@@ -1,10 +1,11 @@
-# Generic Setup for All Hosts (Last Updated: 2022.03.20)
+# Generic Setup for All Hosts (Last Updated: 2023.09.01)
 
 ## Assumptions
 * Git installed and configured properly.
 * SSH key generated.
  * @see `https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/`
  * Use email that includes server as an identifier.
+   * `# ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## Security
 ### Reference
@@ -28,6 +29,7 @@ Disable password authentication and root access (root access will still be allow
    * ChallengeResponseAuthentication no
    * PasswordAuthentication no
    * UsePAM no (password authentication module)
+      * This can change in future, but currently no need for it (https://devicetests.com/ssh-usepam-security-session-status)
 2. Restart sshd service: `$ sudo systemctl reload sshd`
 3. Test
     * `$ ssh -v <server>` - Verify available Authentication Methods
