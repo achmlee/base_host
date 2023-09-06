@@ -30,24 +30,7 @@ Mostly cosmetic customizations.
 * `$ apt-get install mariadb-client`
 
 ## Set Up s3fs.
-### @see https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/
+### @see [s3fs Install](https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/)
 
-# Niceties
-* Install zsh (Global):
-  * `$ sudo apt-get install zsh`
-  * Verify version: `$ zsh --version`
-  * Change default shell: `$ chsh -s $(which zsh)`
-  * Install Powerline fonts:
-	  * `$ sudo apt-get install powerline fonts-powerline`
-* Install oh-my-zsh (Per user - easier to manage)
-  * `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-* Install powerlevel10k theme (Per user - easier to manage)
-  * `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
-  * In .zshrc, update ZSH_THEME to: `powerlevel10k/powerlevel10k`
-  * To reconfigure: `$ p10k configure`
-    * Config file: `~/.p10k.zsh`
-  * Preset options: After icon check, use 2-1-3-3-1-1-1-1-2-2-1-y-3-y
-* Install Fonts on Host Terminal (https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k):
-  * Configuration should ask to install - or -
-  * Catalina: Open Font Book → Validate and Install
-    * iTerm2: iTerm2 → Preferences → Profiles → Text → Choose MesloLGS NF
+## Niceties
+* Install [zsh](../../../tools/zsh.md)
