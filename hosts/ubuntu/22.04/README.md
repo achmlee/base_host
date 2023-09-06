@@ -13,6 +13,7 @@ Mostly cosmetic customizations.
 ### ZSH Shell Files (see below for installation)
 * .zsh\_aliases (global alias file, designed not to be changed, ff oh-my-zsh is being used, add to ZSH_CUSTOM directory as aliases.zsh)
 * .zsh\_aliases\_local (User specific alias file template)
+* .zshenv (Environment variables)
 * .zprofile (startup config file)
 * README.md (this file)
 * .vimrc (VIM specific customization)
@@ -21,38 +22,15 @@ Mostly cosmetic customizations.
 ### Homebrew
 @see [Homebrew](https://brew.sh/)
 
-### Install PHP 7.4 (Via Homebrew)
+### Install PHP 7.4 (Via Homebrew) - Skipped
 * `$ brew install php@7.4`
 * `brew link --force php@7.4` - Since this is an alternate version, create symlinks in `/home/linuxbrew/.linuxbrew/bin`
 
-## Install MySQL Client (For Data Backup Operations)
+## Install MySQL Client (For Data Backup Operations) - Skipped
 * `$ apt-get install mariadb-client`
 
-## Set Up s5cmd for S3 Backups
-### Install [Go](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04)
-```
-# Download.
-$ curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
-
-# Verify (Should be 7fe7a73f55ba3e2285da36f8b085e5c0159e9564ef5f63ee0ed6b818ade8ef04).
-sha256sum go1.16.7.linux-amd64.tar.gz
-
-# Extra to /usr/local.
-$ sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
-
-# Add to PATH .
-# export PATH=$PATH:/usr/local/go/bin
-```
-
-
-* `$ sudo apt-get install s4cmd` - Current v2.1.0
-* Create ~/.s3cfg file
-
-```
-[default]
-access_key = YOUR_ACCESS_KEY
-secret_key = YOUR_SECRET_KEY
-```
+## Set Up s3fs.
+### @see https://www.nakivo.com/blog/mount-amazon-s3-as-a-drive-how-to-guide/
 
 # Niceties
 * Install zsh (Global):
