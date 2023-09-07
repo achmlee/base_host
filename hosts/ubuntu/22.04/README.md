@@ -11,12 +11,12 @@
 Mostly cosmetic customizations.
 
 ### ZSH Shell Files (see below for installation)
+* .vimrc (VIM specific customization)
+* .zprofile (startup config file)
 * .zsh\_aliases (global alias file, designed not to be changed, ff oh-my-zsh is being used, add to ZSH_CUSTOM directory as aliases.zsh)
 * .zsh\_aliases\_local (User specific alias file template)
 * .zshenv (Environment variables)
-* .zprofile (startup config file)
 * README.md (this file)
-* .vimrc (VIM specific customization)
 
 ## Install Tools
 ### Homebrew
@@ -34,3 +34,6 @@ Mostly cosmetic customizations.
 
 ## Niceties
 * Install [zsh](../../../tools/zsh.md)
+
+## Development
+* Install [Node.js](../../../tools/nodejs.md)
