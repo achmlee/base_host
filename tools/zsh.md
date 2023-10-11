@@ -14,6 +14,7 @@
 
 * Update theme in .zshrc to 'powerlevel10k/powerlevel10k'
 	* Configure p10k (After icon check: 213-311-112-21-y3y)
+	* Configure p10k (After icon check: 213-111-112-21-y3y) <- more recent?
 	* To reconfigure: `$ p10k configure`
 	* Config saved to `.p10k.zsh`
 
